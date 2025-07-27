@@ -1,28 +1,51 @@
-Introducing VOCA – Your Voice. Your Assistant. Supercharged by AI. 🎉🚨
+ 🗣️ VOCA – Voice Powered AI Assistant
 
-After weeks of designing, coding, and testing with the cutting-edge power of AI, I'm thrilled to unveil VOCA — a futuristic AI Voice Assistant App, built using Flutter and powered by Gemini 2.0 Flash. 🧠📱
+**Voca** is a multilingual voice assistant app built with Flutter, powered by **Gemini 2.0 Flash** for AI responses and **Imagen 4.0** for stunning image generation. It supports voice-to-text and text-to-speech interactions, allowing users to talk to an AI that can respond with both spoken answers and AI-generated images!
+
+<br/>
+
+## 🚀 Features
+
+* 🎤 **Speech to Text** — Converts your speech into commands using the `speech_to_text` package.
+* 🧠 **Gemini 2.0 Flash** — Uses Google's cutting-edge AI model to generate smart and multilingual text responses.
+* 🖼️ **Imagen 4.0** — Generates AI images based on user prompts and voice input.
+* 🔊 **Text to Speech** — Speaks the AI response out loud using the `flutter_tts` package.
+* 🌐 **Multilingual Support** — Understands and responds in multiple languages.
+* 🧩 **Beautiful UI** — Clean, animated user interface using `animate_do` for seamless experience.
+
+<br/>
+
+## 🛠️ Tech Stack
+
+| Technology       | Usage                             |
+| ---------------- | --------------------------------- |
+| Flutter          | Cross-platform mobile UI          |
+| Gemini 2.0 Flash | AI text generation (multilingual) |
+| Imagen 4.0       | AI image generation               |
+| speech\_to\_text | Voice input                       |
+| flutter\_tts     | Text-to-speech output             |
+| animate\_do      | UI animations                     |
+
+<br/>
+
+## 📸 Screenshots
+
+> *Add your app screenshots here to visually showcase the experience.*
+
+<br/>
+
+## 📉 Known Limitations
+
+* ⚠️ **Free-tier API Slowness** — The app uses free-tier Gemini and Imagen APIs, which may cause **delays** in responses during high traffic.
+* 🌐 Requires stable internet connection for model interaction.
+
+<br/>
+
+## 📚 Credits & Acknowledgements
+
+* Based on foundational concepts learned from **Rivaan Ranawat’s** Flutter AI tutorials.
+  *(Note: The original project used OpenAI APIs, while Voca integrates Google's Gemini & Imagen APIs.)*
+
+<br/>
 
 
-
-🎙️ What is VOCA?
-VOCA is an intelligent voice assistant that doesn’t just respond — it understands, speaks, and creates.
-
-✨ Key Features:
-
-🔹 Gemini 2.0 Flash Integration – Fast, smart, and capable of handling multi-language prompts with impressive reasoning.
-🔹 Auto Prompt Classifier – Determines whether a prompt should return text or trigger AI image generation, thanks to Gemini Flash Preview Image Model.
-🔹 Text-to-Speech (flutter_tts) – Responses are voiced naturally, making the assistant feel human.
-🔹 Speech-to-Text (speech_to_text) – Speak directly to VOCA — and it listens.
-🔹 Flutter UI – Sleek, responsive design with real-time interaction, floating mic, chat bubbles, and assistant feedback.
-
-
-
-🛠️ Tech Stack Highlights:
-
-Flutter (Cross-platform UI)
-Gemini 2.0 Flash & Preview (Text + Image Gen)
-REST API Integration
-speech_to_text & flutter_tts
-Dynamic Prompt Analysis
-Base64 image decoding
-Offline-friendly UI components
