@@ -44,7 +44,7 @@
 ## 📚 Credits & Acknowledgements
 
 * Based on foundational concepts learned from **Rivaan Ranawat’s** Flutter AI tutorials.
-  *(Note: The original project used OpenAI APIs, while Voca integrates Google's Gemini & Imagen APIs.)*
+  *(Note: The original project used OpenAI APIs, while Voca integrates Google's Gemini & Gemini Image generation APIs.)*
 
 <br/>
 
